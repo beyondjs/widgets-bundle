@@ -1,0 +1,39 @@
+{
+	"name": "@beyond-js/widgets-bundle",
+	"version": "1.0.0",
+	"description": "Texts bundle and processor for BeyondJS",
+	"authors": [
+		{
+			"name": "Julio Rodriguez",
+			"email": "julio@beyondjs.com",
+			"twitter": "@jircdeveloper"
+		},
+		{
+			"name": "Felix Tovar",
+			"email": "felix@beyondjs.com"
+		},
+		{
+			"name": "Henry Box",
+			"email": "ebox@beyondjs.com"
+		}
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"beyond",
+		"bundle",
+		"code"
+	],
+	"exports": {
+		"layout": "./src/layout/index.js",
+		"page": "./src/page/index.js",
+		"widget": "./src/widget/index.js"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"@beyond-js/crc32": "^0.0.1",
+		"@beyond-js/dynamic-processor": "^0.0.2",
+		"concat-with-sourcemaps": "^1.1.0"
+	}
+}
