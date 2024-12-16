@@ -26,9 +26,9 @@
 		"code"
 	],
 	"exports": {
-		"layout": "./src/layout/index.js",
-		"page": "./src/page/index.js",
-		"widget": "./src/widget/index.js"
+		".": "./src/index.js",
+		"./bundle": "./src/bundle/index.js",
+		"./start": "./src/start/index.js"
 	},
 	"license": "ISC",
 	"dependencies": {
